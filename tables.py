@@ -1,0 +1,39 @@
+# -- encoding: UTF-8 --
+
+STANDARD = {  # BGR -- this is the normal Windows color map
+    0: 0x000000,
+    1: 0x800000,
+    2: 0x00aa00,
+    3: 0xaaaa00,
+    4: 0x0000aa,
+    5: 0x800080,
+    6: 0x00aaaa,
+    7: 0xc0c0c0,
+    8: 0x808080,
+    9: 0xff0000,
+    10: 0x00ff00,
+    11: 0xffff00,
+    12: 0x0000ff,
+    13: 0xff00ff,
+    14: 0x00ffff,
+    15: 0xffffff,
+}
+
+GAMMA = dict(enumerate([
+    0x000000,
+    0x960000,
+    0x00aa00,
+    0xaaaa00,
+    0x0000aa,
+    0x800080,
+    0x00aaaa,
+    0xc0c0c0,
+    0x808080,
+    0xff0000,
+    0x00ff00,
+    0xffff00,
+    0x0000ff,
+    0xff00ff,
+    0x00ffff,
+    0xffffff,
+]))
